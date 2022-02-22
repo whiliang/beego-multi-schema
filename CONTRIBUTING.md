@@ -69,7 +69,7 @@ we might decide against incorporating a new feature. But we will give you some a
 
 ### Create issues
 
-Any significant improvement should be documented as [a GitHub issue](https://github.com/whiliang/beego-multi-schema/issues) before
+Any significant improvement should be documented as [a GitHub issue](https://github.com/whiliang/beego-multi-schema/v2/issues) before
 anybody starts working on it.
 
 Also when filing an issue, make sure to answer these five questions:

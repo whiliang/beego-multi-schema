@@ -15,7 +15,7 @@
 package orm
 
 import (
-	"github.com/whiliang/beego-multi-schema/client/orm"
+	"github.com/whiliang/beego-multi-schema/v2/client/orm"
 )
 
 // ResetModelCache Clean model cache. Then you can re-RegisterModel.

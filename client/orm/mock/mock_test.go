@@ -20,7 +20,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/whiliang/beego-multi-schema/client/orm"
+	"github.com/whiliang/beego-multi-schema/v2/client/orm"
 )
 
 func TestOrmStub_FilterChain(t *testing.T) {

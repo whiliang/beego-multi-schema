@@ -20,8 +20,8 @@ import (
 	"net/http"
 	"net/http/httputil"
 
-	"github.com/whiliang/beego-multi-schema/client/httplib"
-	"github.com/whiliang/beego-multi-schema/core/logs"
+	"github.com/whiliang/beego-multi-schema/v2/client/httplib"
+	"github.com/whiliang/beego-multi-schema/v2/core/logs"
 )
 
 // FilterChainBuilder can build a log filter

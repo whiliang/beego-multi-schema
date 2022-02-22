@@ -15,7 +15,7 @@
 package testing
 
 import (
-	"github.com/whiliang/beego-multi-schema/client/httplib"
+	"github.com/whiliang/beego-multi-schema/v2/client/httplib"
 )
 
 var (

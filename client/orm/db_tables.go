@@ -19,8 +19,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/whiliang/beego-multi-schema/client/orm/clauses"
-	"github.com/whiliang/beego-multi-schema/client/orm/clauses/order_clause"
+	"github.com/whiliang/beego-multi-schema/v2/client/orm/clauses"
+	"github.com/whiliang/beego-multi-schema/v2/client/orm/clauses/order_clause"
 )
 
 // table info struct.

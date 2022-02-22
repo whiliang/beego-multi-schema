@@ -24,7 +24,7 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
-	"github.com/whiliang/beego-multi-schema/core/admin"
+	"github.com/whiliang/beego-multi-schema/v2/core/admin"
 )
 
 type adminController struct {

@@ -30,7 +30,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/whiliang/beego-multi-schema/core/berror"
+	"github.com/whiliang/beego-multi-schema/v2/core/berror"
 )
 
 // FileCacheItem is basic unit of file cache adapter which

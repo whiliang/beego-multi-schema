@@ -20,8 +20,8 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/whiliang/beego-multi-schema/server/web"
-	"github.com/whiliang/beego-multi-schema/server/web/session"
+	"github.com/whiliang/beego-multi-schema/v2/server/web"
+	"github.com/whiliang/beego-multi-schema/v2/server/web/session"
 )
 
 // NewSessionProvider create new SessionProvider

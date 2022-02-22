@@ -17,7 +17,7 @@ package orm
 import (
 	"io"
 
-	"github.com/whiliang/beego-multi-schema/client/orm"
+	"github.com/whiliang/beego-multi-schema/v2/client/orm"
 )
 
 // Log implement the log.Logger

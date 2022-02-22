@@ -23,7 +23,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/whiliang/beego-multi-schema/core/utils"
+	"github.com/whiliang/beego-multi-schema/v2/core/utils"
 )
 
 func TestFilterOrmDecoratorRead(t *testing.T) {

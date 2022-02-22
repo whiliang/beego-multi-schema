@@ -7,18 +7,18 @@ validation is a form validation for a data validation and error collecting using
 
 Install:
 
-	go get github.com/whiliang/beego-multi-schema/core/validation
+	go get github.com/whiliang/beego-multi-schema/v2/core/validation
 
 Test:
 
-	go test github.com/whiliang/beego-multi-schema/core/validation
+	go test github.com/whiliang/beego-multi-schema/v2/core/validation
 
 ## Example
 
 Direct Use:
 
 	import (
-		"github.com/whiliang/beego-multi-schema/core/validation"
+		"github.com/whiliang/beego-multi-schema/v2/core/validation"
 		"log"
 	)
 
@@ -49,7 +49,7 @@ Direct Use:
 Struct Tag Use:
 
 	import (
-		"github.com/whiliang/beego-multi-schema/core/validation"
+		"github.com/whiliang/beego-multi-schema/v2/core/validation"
 	)
 
 	// validation function follow with "valid" tag
@@ -81,7 +81,7 @@ Struct Tag Use:
 Use custom function:
 
 	import (
-		"github.com/whiliang/beego-multi-schema/core/validation"
+		"github.com/whiliang/beego-multi-schema/v2/core/validation"
 	)
 
 	type user struct {

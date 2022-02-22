@@ -15,5 +15,5 @@
 package config
 
 import (
-	_ "github.com/whiliang/beego-multi-schema/core/config/json"
+	_ "github.com/whiliang/beego-multi-schema/v2/core/config/json"
 )

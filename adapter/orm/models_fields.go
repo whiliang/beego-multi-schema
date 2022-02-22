@@ -17,7 +17,7 @@ package orm
 import (
 	"time"
 
-	"github.com/whiliang/beego-multi-schema/client/orm"
+	"github.com/whiliang/beego-multi-schema/v2/client/orm"
 )
 
 // Define the Type enum

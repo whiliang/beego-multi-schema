@@ -20,8 +20,8 @@
 //
 // Usage:
 //  import(
-//    _ "github.com/whiliang/beego-multi-schema/core/config/xml"
-//      "github.com/whiliang/beego-multi-schema/core/config"
+//    _ "github.com/whiliang/beego-multi-schema/v2/core/config/xml"
+//      "github.com/whiliang/beego-multi-schema/v2/core/config"
 //  )
 //
 //  cnf, err := config.NewConfig("xml", "config.xml")
@@ -30,5 +30,5 @@
 package xml
 
 import (
-	_ "github.com/whiliang/beego-multi-schema/core/config/xml"
+	_ "github.com/whiliang/beego-multi-schema/v2/core/config/xml"
 )

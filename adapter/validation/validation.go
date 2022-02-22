@@ -15,7 +15,7 @@
 // Package validation for validations
 //
 //	import (
-//		"github.com/whiliang/beego-multi-schema/core/validation"
+//		"github.com/whiliang/beego-multi-schema/v2/core/validation"
 //		"log"
 //	)
 //
@@ -50,7 +50,7 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/whiliang/beego-multi-schema/core/validation"
+	"github.com/whiliang/beego-multi-schema/v2/core/validation"
 )
 
 // ValidFormer valid interface

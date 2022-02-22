@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/whiliang/beego-multi-schema/client/orm/clauses"
+	"github.com/whiliang/beego-multi-schema/v2/client/orm/clauses"
 )
 
 // ExprSep define the expression separation

@@ -24,7 +24,7 @@ import (
 	assetfs "github.com/elazarl/go-bindata-assetfs"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/whiliang/beego-multi-schema/test"
+	"github.com/whiliang/beego-multi-schema/v2/test"
 )
 
 var header = `{{define "header"}}

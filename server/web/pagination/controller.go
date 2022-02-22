@@ -15,8 +15,8 @@
 package pagination
 
 import (
-	"github.com/whiliang/beego-multi-schema/core/utils/pagination"
-	"github.com/whiliang/beego-multi-schema/server/web/context"
+	"github.com/whiliang/beego-multi-schema/v2/core/utils/pagination"
+	"github.com/whiliang/beego-multi-schema/v2/server/web/context"
 )
 
 // SetPaginator Instantiates a Paginator and assigns it to context.Input.Data("paginator").

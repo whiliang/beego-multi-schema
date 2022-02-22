@@ -20,7 +20,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/whiliang/beego-multi-schema/core/logs"
+	"github.com/whiliang/beego-multi-schema/v2/core/logs"
 )
 
 func TestDefaultIndexNaming_IndexName(t *testing.T) {

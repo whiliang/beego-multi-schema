@@ -24,12 +24,12 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/whiliang/beego-multi-schema"
-	"github.com/whiliang/beego-multi-schema/core/config"
-	"github.com/whiliang/beego-multi-schema/core/logs"
-	"github.com/whiliang/beego-multi-schema/core/utils"
-	"github.com/whiliang/beego-multi-schema/server/web/context"
-	"github.com/whiliang/beego-multi-schema/server/web/session"
+	"github.com/whiliang/beego-multi-schema/v2"
+	"github.com/whiliang/beego-multi-schema/v2/core/config"
+	"github.com/whiliang/beego-multi-schema/v2/core/logs"
+	"github.com/whiliang/beego-multi-schema/v2/core/utils"
+	"github.com/whiliang/beego-multi-schema/v2/server/web/context"
+	"github.com/whiliang/beego-multi-schema/v2/server/web/session"
 )
 
 // Config is the main struct for BConfig

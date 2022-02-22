@@ -15,7 +15,7 @@
 package utils
 
 import (
-	"github.com/whiliang/beego-multi-schema/core/utils"
+	"github.com/whiliang/beego-multi-schema/v2/core/utils"
 )
 
 // RandomCreateBytes generate random []byte by specify chars.

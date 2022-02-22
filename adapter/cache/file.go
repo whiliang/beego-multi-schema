@@ -15,7 +15,7 @@
 package cache
 
 import (
-	"github.com/whiliang/beego-multi-schema/client/cache"
+	"github.com/whiliang/beego-multi-schema/v2/client/cache"
 )
 
 // NewFileCache Create new file cache with no config.

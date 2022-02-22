@@ -21,9 +21,9 @@ import (
 
 	"github.com/casbin/casbin"
 
-	beego "github.com/whiliang/beego-multi-schema/adapter"
-	"github.com/whiliang/beego-multi-schema/adapter/context"
-	"github.com/whiliang/beego-multi-schema/adapter/plugins/auth"
+	beego "github.com/whiliang/beego-multi-schema/v2/adapter"
+	"github.com/whiliang/beego-multi-schema/v2/adapter/context"
+	"github.com/whiliang/beego-multi-schema/v2/adapter/plugins/auth"
 )
 
 const (

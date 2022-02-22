@@ -17,7 +17,7 @@ package utils
 import (
 	"io"
 
-	"github.com/whiliang/beego-multi-schema/core/utils"
+	"github.com/whiliang/beego-multi-schema/v2/core/utils"
 )
 
 // Email is the type used for email messages

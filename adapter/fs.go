@@ -18,7 +18,7 @@ import (
 	"net/http"
 	"path/filepath"
 
-	"github.com/whiliang/beego-multi-schema/server/web"
+	"github.com/whiliang/beego-multi-schema/v2/server/web"
 )
 
 type FileSystem web.FileSystem

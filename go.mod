@@ -1,4 +1,4 @@
-module github.com/whiliang/beego-multi-schema
+module github.com/whiliang/beego-multi-schema/v2
 
 go 1.14
 

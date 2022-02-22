@@ -24,7 +24,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/whiliang/beego-multi-schema/server/web/context"
+	"github.com/whiliang/beego-multi-schema/v2/server/web/context"
 )
 
 func TestControllerRegisterInsertFilterChain(t *testing.T) {

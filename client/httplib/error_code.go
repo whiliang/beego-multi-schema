@@ -15,7 +15,7 @@
 package httplib
 
 import (
-	"github.com/whiliang/beego-multi-schema/core/berror"
+	"github.com/whiliang/beego-multi-schema/v2/core/berror"
 )
 
 var InvalidUrl = berror.DefineCode(4001001, moduleName, "InvalidUrl", `

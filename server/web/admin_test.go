@@ -11,7 +11,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/whiliang/beego-multi-schema/core/admin"
+	"github.com/whiliang/beego-multi-schema/v2/core/admin"
 )
 
 type SampleDatabaseCheck struct{}

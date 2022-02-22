@@ -3,10 +3,10 @@ package session
 import (
 	"context"
 
-	"github.com/whiliang/beego-multi-schema/core/logs"
-	"github.com/whiliang/beego-multi-schema/server/web"
-	webContext "github.com/whiliang/beego-multi-schema/server/web/context"
-	"github.com/whiliang/beego-multi-schema/server/web/session"
+	"github.com/whiliang/beego-multi-schema/v2/core/logs"
+	"github.com/whiliang/beego-multi-schema/v2/server/web"
+	webContext "github.com/whiliang/beego-multi-schema/v2/server/web/context"
+	"github.com/whiliang/beego-multi-schema/v2/server/web/session"
 )
 
 // Session maintain session for web service

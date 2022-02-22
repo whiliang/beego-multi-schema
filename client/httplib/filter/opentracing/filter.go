@@ -23,7 +23,7 @@ import (
 	"github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/log"
 
-	"github.com/whiliang/beego-multi-schema/client/httplib"
+	"github.com/whiliang/beego-multi-schema/v2/client/httplib"
 )
 
 type FilterChainBuilder struct {

@@ -22,7 +22,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/whiliang/beego-multi-schema/client/orm/hints"
+	"github.com/whiliang/beego-multi-schema/v2/client/orm/hints"
 )
 
 // sqlite operators.

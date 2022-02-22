@@ -15,7 +15,7 @@
 package logs
 
 import (
-	"github.com/whiliang/beego-multi-schema/core/logs"
+	"github.com/whiliang/beego-multi-schema/v2/core/logs"
 )
 
 // ColorByStatus return color by http code

@@ -17,9 +17,9 @@ package adapter
 import (
 	"net/http"
 
-	"github.com/whiliang/beego-multi-schema/adapter/context"
-	"github.com/whiliang/beego-multi-schema/server/web"
-	beecontext "github.com/whiliang/beego-multi-schema/server/web/context"
+	"github.com/whiliang/beego-multi-schema/v2/adapter/context"
+	"github.com/whiliang/beego-multi-schema/v2/server/web"
+	beecontext "github.com/whiliang/beego-multi-schema/v2/server/web/context"
 )
 
 const (

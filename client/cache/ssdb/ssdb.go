@@ -10,8 +10,8 @@ import (
 
 	"github.com/ssdb/gossdb/ssdb"
 
-	"github.com/whiliang/beego-multi-schema/client/cache"
-	"github.com/whiliang/beego-multi-schema/core/berror"
+	"github.com/whiliang/beego-multi-schema/v2/client/cache"
+	"github.com/whiliang/beego-multi-schema/v2/core/berror"
 )
 
 // Cache SSDB adapter

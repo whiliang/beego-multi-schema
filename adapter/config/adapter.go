@@ -17,7 +17,7 @@ package config
 import (
 	"github.com/pkg/errors"
 
-	"github.com/whiliang/beego-multi-schema/core/config"
+	"github.com/whiliang/beego-multi-schema/v2/core/config"
 )
 
 type newToOldConfigerAdapter struct {

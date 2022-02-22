@@ -17,7 +17,7 @@ package mock
 import (
 	"context"
 
-	"github.com/whiliang/beego-multi-schema/client/orm"
+	"github.com/whiliang/beego-multi-schema/v2/client/orm"
 )
 
 var stub = newOrmStub()

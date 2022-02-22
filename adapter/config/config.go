@@ -14,7 +14,7 @@
 
 // Package config is used to parse config.
 // Usage:
-//  import "github.com/whiliang/beego-multi-schema/core/config"
+//  import "github.com/whiliang/beego-multi-schema/v2/core/config"
 // Examples.
 //
 //  cnf, err := config.NewConfig("ini", "config.conf")
@@ -41,7 +41,7 @@
 package config
 
 import (
-	"github.com/whiliang/beego-multi-schema/core/config"
+	"github.com/whiliang/beego-multi-schema/v2/core/config"
 )
 
 // Configer defines how to get and set value from configuration raw data.

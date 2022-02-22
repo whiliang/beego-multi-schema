@@ -15,7 +15,7 @@
 package orm
 
 import (
-	"github.com/whiliang/beego-multi-schema/client/orm"
+	"github.com/whiliang/beego-multi-schema/v2/client/orm"
 )
 
 // RunCommand listen for orm command and then run it if command arguments passed.

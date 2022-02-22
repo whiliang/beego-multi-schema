@@ -17,7 +17,7 @@
 package env
 
 import (
-	"github.com/whiliang/beego-multi-schema/core/config/env"
+	"github.com/whiliang/beego-multi-schema/v2/core/config/env"
 )
 
 // Get returns a value by key.

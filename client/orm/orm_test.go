@@ -33,8 +33,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/whiliang/beego-multi-schema/client/orm/clauses/order_clause"
-	"github.com/whiliang/beego-multi-schema/client/orm/hints"
+	"github.com/whiliang/beego-multi-schema/v2/client/orm/clauses/order_clause"
+	"github.com/whiliang/beego-multi-schema/v2/client/orm/hints"
 )
 
 var _ = os.PathSeparator

@@ -20,8 +20,8 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/whiliang/beego-multi-schema/core/logs"
-	"github.com/whiliang/beego-multi-schema/core/utils"
+	"github.com/whiliang/beego-multi-schema/v2/core/logs"
+	"github.com/whiliang/beego-multi-schema/v2/core/utils"
 )
 
 const (

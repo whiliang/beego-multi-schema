@@ -17,7 +17,7 @@ package es
 import (
 	"fmt"
 
-	"github.com/whiliang/beego-multi-schema/core/logs"
+	"github.com/whiliang/beego-multi-schema/v2/core/logs"
 )
 
 // IndexNaming generate the index name

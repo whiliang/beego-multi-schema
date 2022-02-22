@@ -18,7 +18,7 @@ import (
 	"net/http"
 	"strings"
 
-	beecontext "github.com/whiliang/beego-multi-schema/server/web/context"
+	beecontext "github.com/whiliang/beego-multi-schema/v2/server/web/context"
 )
 
 type namespaceCond func(*beecontext.Context) bool
@@ -97,91 +97,91 @@ func (n *Namespace) Filter(action string, filter ...FilterFunc) *Namespace {
 }
 
 // Router same as beego.Rourer
-// refer: https://godoc.org/github.com/whiliang/beego-multi-schema#Router
+// refer: https://godoc.org/github.com/whiliang/beego-multi-schema/v2#Router
 func (n *Namespace) Router(rootpath string, c ControllerInterface, mappingMethods ...string) *Namespace {
 	n.handlers.Add(rootpath, c, WithRouterMethods(c, mappingMethods...))
 	return n
 }
 
 // AutoRouter same as beego.AutoRouter
-// refer: https://godoc.org/github.com/whiliang/beego-multi-schema#AutoRouter
+// refer: https://godoc.org/github.com/whiliang/beego-multi-schema/v2#AutoRouter
 func (n *Namespace) AutoRouter(c ControllerInterface) *Namespace {
 	n.handlers.AddAuto(c)
 	return n
 }
 
 // AutoPrefix same as beego.AutoPrefix
-// refer: https://godoc.org/github.com/whiliang/beego-multi-schema#AutoPrefix
+// refer: https://godoc.org/github.com/whiliang/beego-multi-schema/v2#AutoPrefix
 func (n *Namespace) AutoPrefix(prefix string, c ControllerInterface) *Namespace {
 	n.handlers.AddAutoPrefix(prefix, c)
 	return n
 }
 
 // Get same as beego.Get
-// refer: https://godoc.org/github.com/whiliang/beego-multi-schema#Get
+// refer: https://godoc.org/github.com/whiliang/beego-multi-schema/v2#Get
 func (n *Namespace) Get(rootpath string, f HandleFunc) *Namespace {
 	n.handlers.Get(rootpath, f)
 	return n
 }
 
 // Post same as beego.Post
-// refer: https://godoc.org/github.com/whiliang/beego-multi-schema#Post
+// refer: https://godoc.org/github.com/whiliang/beego-multi-schema/v2#Post
 func (n *Namespace) Post(rootpath string, f HandleFunc) *Namespace {
 	n.handlers.Post(rootpath, f)
 	return n
 }
 
 // Delete same as beego.Delete
-// refer: https://godoc.org/github.com/whiliang/beego-multi-schema#Delete
+// refer: https://godoc.org/github.com/whiliang/beego-multi-schema/v2#Delete
 func (n *Namespace) Delete(rootpath string, f HandleFunc) *Namespace {
 	n.handlers.Delete(rootpath, f)
 	return n
 }
 
 // Put same as beego.Put
-// refer: https://godoc.org/github.com/whiliang/beego-multi-schema#Put
+// refer: https://godoc.org/github.com/whiliang/beego-multi-schema/v2#Put
 func (n *Namespace) Put(rootpath string, f HandleFunc) *Namespace {
 	n.handlers.Put(rootpath, f)
 	return n
 }
 
 // Head same as beego.Head
-// refer: https://godoc.org/github.com/whiliang/beego-multi-schema#Head
+// refer: https://godoc.org/github.com/whiliang/beego-multi-schema/v2#Head
 func (n *Namespace) Head(rootpath string, f HandleFunc) *Namespace {
 	n.handlers.Head(rootpath, f)
 	return n
 }
 
 // Options same as beego.Options
-// refer: https://godoc.org/github.com/whiliang/beego-multi-schema#Options
+// refer: https://godoc.org/github.com/whiliang/beego-multi-schema/v2#Options
 func (n *Namespace) Options(rootpath string, f HandleFunc) *Namespace {
 	n.handlers.Options(rootpath, f)
 	return n
 }
 
 // Patch same as beego.Patch
-// refer: https://godoc.org/github.com/whiliang/beego-multi-schema#Patch
+// refer: https://godoc.org/github.com/whiliang/beego-multi-schema/v2#Patch
 func (n *Namespace) Patch(rootpath string, f HandleFunc) *Namespace {
 	n.handlers.Patch(rootpath, f)
 	return n
 }
 
 // Any same as beego.Any
-// refer: https://godoc.org/github.com/whiliang/beego-multi-schema#Any
+// refer: https://godoc.org/github.com/whiliang/beego-multi-schema/v2#Any
 func (n *Namespace) Any(rootpath string, f HandleFunc) *Namespace {
 	n.handlers.Any(rootpath, f)
 	return n
 }
 
 // Handler same as beego.Handler
-// refer: https://godoc.org/github.com/whiliang/beego-multi-schema#Handler
+// refer: https://godoc.org/github.com/whiliang/beego-multi-schema/v2#Handler
 func (n *Namespace) Handler(rootpath string, h http.Handler) *Namespace {
 	n.handlers.Handler(rootpath, h)
 	return n
 }
 
 // Include add include class
-// refer: https://godoc.org/github.com/whiliang/beego-multi-schema#Include
+// refer: https://godoc.org/github.com/whiliang/beego-multi-schema/v2#Include
 func (n *Namespace) Include(cList ...ControllerInterface) *Namespace {
 	n.handlers.Include(cList...)
 	return n

@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/whiliang/beego-multi-schema/core/utils"
+	"github.com/whiliang/beego-multi-schema/v2/core/utils"
 )
 
 // Statistics struct

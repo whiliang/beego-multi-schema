@@ -12,7 +12,7 @@ import (
 	"github.com/ledisdb/ledisdb/config"
 	"github.com/ledisdb/ledisdb/ledis"
 
-	"github.com/whiliang/beego-multi-schema/server/web/session"
+	"github.com/whiliang/beego-multi-schema/v2/server/web/session"
 )
 
 var (

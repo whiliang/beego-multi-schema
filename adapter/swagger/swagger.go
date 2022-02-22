@@ -21,7 +21,7 @@
 package swagger
 
 import (
-	"github.com/whiliang/beego-multi-schema/server/web/swagger"
+	"github.com/whiliang/beego-multi-schema/v2/server/web/swagger"
 )
 
 // Swagger list the resource

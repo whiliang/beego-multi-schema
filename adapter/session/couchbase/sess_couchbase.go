@@ -20,8 +20,8 @@
 //
 // Usage:
 // import(
-//   _ "github.com/whiliang/beego-multi-schema/server/web/session/couchbase"
-//   "github.com/whiliang/beego-multi-schema/server/web/session"
+//   _ "github.com/whiliang/beego-multi-schema/v2/server/web/session/couchbase"
+//   "github.com/whiliang/beego-multi-schema/v2/server/web/session"
 // )
 //
 //	func init() {
@@ -36,8 +36,8 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/whiliang/beego-multi-schema/adapter/session"
-	beecb "github.com/whiliang/beego-multi-schema/server/web/session/couchbase"
+	"github.com/whiliang/beego-multi-schema/v2/adapter/session"
+	beecb "github.com/whiliang/beego-multi-schema/v2/server/web/session/couchbase"
 )
 
 // SessionStore store each session

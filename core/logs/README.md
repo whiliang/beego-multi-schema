@@ -4,7 +4,7 @@ logs is a Go logs manager. It can use many logs adapters. The repo is inspired b
 
 ## How to install?
 
-	go get github.com/whiliang/beego-multi-schema/core/logs
+	go get github.com/whiliang/beego-multi-schema/v2/core/logs
 
 ## What adapters are supported?
 
@@ -16,7 +16,7 @@ First you must import it
 
 ```golang
 import (
-	"github.com/whiliang/beego-multi-schema/core/logs"
+	"github.com/whiliang/beego-multi-schema/v2/core/logs"
 )
 ```
 

@@ -29,7 +29,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/whiliang/beego-multi-schema/server/web/session"
+	"github.com/whiliang/beego-multi-schema/v2/server/web/session"
 )
 
 // Regexes for checking the accept headers

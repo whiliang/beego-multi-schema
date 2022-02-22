@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/whiliang/beego-multi-schema/core/berror"
+	"github.com/whiliang/beego-multi-schema/v2/core/berror"
 )
 
 // DefaultEvery sets a timer for how often to recycle the expired cache items in memory (in seconds)

@@ -19,7 +19,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/whiliang/beego-multi-schema/adapter/config"
+	"github.com/whiliang/beego-multi-schema/v2/adapter/config"
 )
 
 func TestYaml(t *testing.T) {

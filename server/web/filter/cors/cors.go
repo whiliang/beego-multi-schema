@@ -15,8 +15,8 @@
 // Package cors provides handlers to enable CORS support.
 // Usage
 //	import (
-// 		"github.com/whiliang/beego-multi-schema"
-//		"github.com/whiliang/beego-multi-schema/server/web/filter/cors"
+// 		"github.com/whiliang/beego-multi-schema/v2"
+//		"github.com/whiliang/beego-multi-schema/v2/server/web/filter/cors"
 // )
 //
 //	func main() {
@@ -42,8 +42,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/whiliang/beego-multi-schema/server/web"
-	"github.com/whiliang/beego-multi-schema/server/web/context"
+	"github.com/whiliang/beego-multi-schema/v2/server/web"
+	"github.com/whiliang/beego-multi-schema/v2/server/web/context"
 )
 
 const (

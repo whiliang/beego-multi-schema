@@ -17,7 +17,7 @@ package mock
 import (
 	"net/http"
 
-	beegoCtx "github.com/whiliang/beego-multi-schema/server/web/context"
+	beegoCtx "github.com/whiliang/beego-multi-schema/v2/server/web/context"
 )
 
 func NewMockContext(req *http.Request) (*beegoCtx.Context, *HttpResponse) {

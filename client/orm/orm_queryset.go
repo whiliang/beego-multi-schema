@@ -18,8 +18,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/whiliang/beego-multi-schema/client/orm/clauses/order_clause"
-	"github.com/whiliang/beego-multi-schema/client/orm/hints"
+	"github.com/whiliang/beego-multi-schema/v2/client/orm/clauses/order_clause"
+	"github.com/whiliang/beego-multi-schema/v2/client/orm/hints"
 )
 
 type colValue struct {

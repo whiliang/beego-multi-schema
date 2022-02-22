@@ -15,7 +15,7 @@
 // Package logs provide a general log interface
 // Usage:
 //
-// import "github.com/whiliang/beego-multi-schema/core/logs"
+// import "github.com/whiliang/beego-multi-schema/v2/core/logs"
 //
 //	log := NewLogger(10000)
 //	log.SetLogger("console", "")

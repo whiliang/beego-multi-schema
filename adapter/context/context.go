@@ -15,7 +15,7 @@
 // Package context provide the context utils
 // Usage:
 //
-//	import "github.com/whiliang/beego-multi-schema/server/web/context"
+//	import "github.com/whiliang/beego-multi-schema/v2/server/web/context"
 //
 //	ctx := context.Context{Request:req,ResponseWriter:rw}
 //
@@ -27,7 +27,7 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/whiliang/beego-multi-schema/server/web/context"
+	"github.com/whiliang/beego-multi-schema/v2/server/web/context"
 )
 
 // commonly used mime-types

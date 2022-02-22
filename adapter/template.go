@@ -19,7 +19,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/whiliang/beego-multi-schema/server/web"
+	"github.com/whiliang/beego-multi-schema/v2/server/web"
 )
 
 // ExecuteTemplate applies the template with name  to the specified data object,

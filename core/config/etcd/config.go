@@ -26,8 +26,8 @@ import (
 	clientv3 "go.etcd.io/etcd/client/v3"
 	"google.golang.org/grpc"
 
-	"github.com/whiliang/beego-multi-schema/core/config"
-	"github.com/whiliang/beego-multi-schema/core/logs"
+	"github.com/whiliang/beego-multi-schema/v2/core/config"
+	"github.com/whiliang/beego-multi-schema/v2/core/logs"
 )
 
 type EtcdConfiger struct {

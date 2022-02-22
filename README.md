@@ -1,4 +1,4 @@
-# Beego [![Test](https://github.com/beego/beego/actions/workflows/test.yml/badge.svg?branch=develop)](https://github.com/beego/beego/actions/workflows/test.yml) [![Go Report Card](https://goreportcard.com/badge/github.com/beego/beego)](https://goreportcard.com/report/github.com/beego/beego) [![Go Reference](https://pkg.go.dev/badge/github.com/whiliang/beego-multi-schema.svg)](https://pkg.go.dev/github.com/whiliang/beego-multi-schema)
+# Beego [![Test](https://github.com/beego/beego/actions/workflows/test.yml/badge.svg?branch=develop)](https://github.com/beego/beego/actions/workflows/test.yml) [![Go Report Card](https://goreportcard.com/badge/github.com/beego/beego)](https://goreportcard.com/report/github.com/beego/beego) [![Go Reference](https://pkg.go.dev/badge/github.com/whiliang/beego-multi-schema/v2.svg)](https://pkg.go.dev/github.com/whiliang/beego-multi-schema/v2)
 
 Beego is used for rapid development of enterprise application in Go, including RESTful APIs, web apps and backend services.
 
@@ -39,14 +39,14 @@ Beego is composed of four parts:
 
 #### Download and install
 
-    go get github.com/whiliang/beego-multi-schema@latest
+    go get github.com/whiliang/beego-multi-schema/v2@latest
 
 #### Create file `hello.go`
 
 ```go
 package main
 
-import "github.com/whiliang/beego-multi-schema/server/web"
+import "github.com/whiliang/beego-multi-schema/v2/server/web"
 
 func main() {
 	web.Run()

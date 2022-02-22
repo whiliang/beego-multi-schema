@@ -15,8 +15,8 @@
 // Package auth provides handlers to enable basic auth support.
 // Simple Usage:
 //	import(
-//		"github.com/whiliang/beego-multi-schema"
-//		"github.com/whiliang/beego-multi-schema/server/web/filter/auth"
+//		"github.com/whiliang/beego-multi-schema/v2"
+//		"github.com/whiliang/beego-multi-schema/v2/server/web/filter/auth"
 //	)
 //
 //	func main(){
@@ -40,8 +40,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/whiliang/beego-multi-schema/server/web"
-	"github.com/whiliang/beego-multi-schema/server/web/context"
+	"github.com/whiliang/beego-multi-schema/v2/server/web"
+	"github.com/whiliang/beego-multi-schema/v2/server/web/context"
 )
 
 var defaultRealm = "Authorization Required"

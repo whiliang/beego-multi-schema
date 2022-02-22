@@ -22,7 +22,7 @@
 //	 "net/http"
 //	 "os"
 //
-//   "github.com/whiliang/beego-multi-schema/server/web/grace"
+//   "github.com/whiliang/beego-multi-schema/v2/server/web/grace"
 // )
 //
 //  func handler(w http.ResponseWriter, r *http.Request) {
@@ -46,7 +46,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/whiliang/beego-multi-schema/server/web/grace"
+	"github.com/whiliang/beego-multi-schema/v2/server/web/grace"
 )
 
 const (

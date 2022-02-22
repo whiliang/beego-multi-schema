@@ -21,7 +21,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/whiliang/beego-multi-schema/core/config"
+	"github.com/whiliang/beego-multi-schema/v2/core/config"
 )
 
 func TestJsonStartsWithArray(t *testing.T) {

@@ -16,7 +16,7 @@
 //
 // Usage:
 // import(
-//   "github.com/whiliang/beego-multi-schema/server/web/session"
+//   "github.com/whiliang/beego-multi-schema/v2/server/web/session"
 // )
 //
 //	func init() {

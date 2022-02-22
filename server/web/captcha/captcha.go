@@ -19,9 +19,9 @@
 // package controllers
 //
 // import (
-// 	"github.com/whiliang/beego-multi-schema"
-// 	"github.com/whiliang/beego-multi-schema/client/cache"
-// 	"github.com/whiliang/beego-multi-schema/server/web/captcha"
+// 	"github.com/whiliang/beego-multi-schema/v2"
+// 	"github.com/whiliang/beego-multi-schema/v2/client/cache"
+// 	"github.com/whiliang/beego-multi-schema/v2/server/web/captcha"
 // )
 //
 // var cpt *captcha.Captcha
@@ -67,10 +67,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/whiliang/beego-multi-schema/core/logs"
-	"github.com/whiliang/beego-multi-schema/core/utils"
-	"github.com/whiliang/beego-multi-schema/server/web"
-	"github.com/whiliang/beego-multi-schema/server/web/context"
+	"github.com/whiliang/beego-multi-schema/v2/core/logs"
+	"github.com/whiliang/beego-multi-schema/v2/core/utils"
+	"github.com/whiliang/beego-multi-schema/v2/server/web"
+	"github.com/whiliang/beego-multi-schema/v2/server/web/context"
 )
 
 var defaultChars = []byte{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}

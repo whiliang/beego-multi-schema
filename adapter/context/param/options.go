@@ -1,7 +1,7 @@
 package param
 
 import (
-	"github.com/whiliang/beego-multi-schema/server/web/context/param"
+	"github.com/whiliang/beego-multi-schema/v2/server/web/context/param"
 )
 
 // MethodParamOption defines a func which apply options on a MethodParam

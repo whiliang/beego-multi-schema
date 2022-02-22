@@ -17,7 +17,7 @@ package captcha
 import (
 	"testing"
 
-	"github.com/whiliang/beego-multi-schema/adapter/utils"
+	"github.com/whiliang/beego-multi-schema/v2/adapter/utils"
 )
 
 const (

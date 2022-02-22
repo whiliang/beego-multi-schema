@@ -17,7 +17,7 @@ package web
 import (
 	"strings"
 
-	"github.com/whiliang/beego-multi-schema/server/web/context"
+	"github.com/whiliang/beego-multi-schema/v2/server/web/context"
 )
 
 // PolicyFunc defines a policy function which is invoked before the controller handler is executed.

@@ -16,8 +16,8 @@
 //
 // Simple Usage:
 //	import(
-//		"github.com/whiliang/beego-multi-schema"
-//		"github.com/whiliang/beego-multi-schema/server/web/filter/apiauth"
+//		"github.com/whiliang/beego-multi-schema/v2"
+//		"github.com/whiliang/beego-multi-schema/v2/server/web/filter/apiauth"
 //	)
 //
 //	func main(){
@@ -65,8 +65,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/whiliang/beego-multi-schema/server/web"
-	"github.com/whiliang/beego-multi-schema/server/web/context"
+	"github.com/whiliang/beego-multi-schema/v2/server/web"
+	"github.com/whiliang/beego-multi-schema/v2/server/web/context"
 )
 
 // AppIDToAppSecret gets appsecret through appid

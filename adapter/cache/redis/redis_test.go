@@ -23,7 +23,7 @@ import (
 	"github.com/gomodule/redigo/redis"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/whiliang/beego-multi-schema/adapter/cache"
+	"github.com/whiliang/beego-multi-schema/v2/adapter/cache"
 )
 
 const (

@@ -15,7 +15,7 @@
 package migration
 
 import (
-	"github.com/whiliang/beego-multi-schema/client/orm/migration"
+	"github.com/whiliang/beego-multi-schema/v2/client/orm/migration"
 )
 
 // Index struct defines the structure of Index Columns

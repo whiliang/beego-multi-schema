@@ -20,7 +20,7 @@ import (
 	"net/textproto"
 	"regexp"
 
-	"github.com/whiliang/beego-multi-schema/client/httplib"
+	"github.com/whiliang/beego-multi-schema/v2/client/httplib"
 )
 
 type RequestCondition interface {

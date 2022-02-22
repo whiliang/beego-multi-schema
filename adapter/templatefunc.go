@@ -19,7 +19,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/whiliang/beego-multi-schema/server/web"
+	"github.com/whiliang/beego-multi-schema/v2/server/web"
 )
 
 const (

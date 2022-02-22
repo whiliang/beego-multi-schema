@@ -28,8 +28,8 @@ import (
 
 	lru "github.com/hashicorp/golang-lru"
 
-	"github.com/whiliang/beego-multi-schema/core/logs"
-	"github.com/whiliang/beego-multi-schema/server/web/context"
+	"github.com/whiliang/beego-multi-schema/v2/core/logs"
+	"github.com/whiliang/beego-multi-schema/v2/server/web/context"
 )
 
 var errNotStaticRequest = errors.New("request not a static file request")

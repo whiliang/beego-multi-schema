@@ -17,7 +17,7 @@ package toolbox
 import (
 	"io"
 
-	"github.com/whiliang/beego-multi-schema/core/admin"
+	"github.com/whiliang/beego-multi-schema/v2/core/admin"
 )
 
 // ProcessInput parse input command string

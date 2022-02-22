@@ -19,9 +19,9 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/whiliang/beego-multi-schema/client/orm"
-	"github.com/whiliang/beego-multi-schema/core/bean"
-	"github.com/whiliang/beego-multi-schema/core/logs"
+	"github.com/whiliang/beego-multi-schema/v2/client/orm"
+	"github.com/whiliang/beego-multi-schema/v2/core/bean"
+	"github.com/whiliang/beego-multi-schema/v2/core/logs"
 )
 
 // DefaultValueFilterChainBuilder only works for InsertXXX method,
