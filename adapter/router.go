@@ -18,9 +18,9 @@ import (
 	"net/http"
 	"time"
 
-	beecontext "github.com/beego/beego/v2/adapter/context"
-	"github.com/beego/beego/v2/server/web"
-	"github.com/beego/beego/v2/server/web/context"
+	beecontext "github.com/whiliang/beego-multi-schema/adapter/context"
+	"github.com/whiliang/beego-multi-schema/server/web"
+	"github.com/whiliang/beego-multi-schema/server/web/context"
 )
 
 // default filter execution points

@@ -3,7 +3,7 @@ package order_clause
 import (
 	"strings"
 
-	"github.com/beego/beego/v2/client/orm/clauses"
+	"github.com/whiliang/beego-multi-schema/client/orm/clauses"
 )
 
 type Sort int8

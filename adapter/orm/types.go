@@ -18,7 +18,7 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/beego/beego/v2/client/orm"
+	"github.com/whiliang/beego-multi-schema/client/orm"
 )
 
 // Params stores the Params

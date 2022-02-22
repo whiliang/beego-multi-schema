@@ -20,8 +20,8 @@
 //
 // Usage:
 // import(
-//   _ "github.com/beego/beego/v2/client/cache/redis"
-//   "github.com/beego/beego/v2/client/cache"
+//   _ "github.com/whiliang/beego-multi-schema/client/cache/redis"
+//   "github.com/whiliang/beego-multi-schema/client/cache"
 // )
 //
 //  bm, err := cache.NewCache("redis", `{"conn":"127.0.0.1:11211"}`)
@@ -30,8 +30,8 @@
 package redis
 
 import (
-	"github.com/beego/beego/v2/adapter/cache"
-	redis2 "github.com/beego/beego/v2/client/cache/redis"
+	"github.com/whiliang/beego-multi-schema/adapter/cache"
+	redis2 "github.com/whiliang/beego-multi-schema/client/cache/redis"
 )
 
 // DefaultKey the collection name of redis for cache adapter.

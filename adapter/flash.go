@@ -15,7 +15,7 @@
 package adapter
 
 import (
-	"github.com/beego/beego/v2/server/web"
+	"github.com/whiliang/beego-multi-schema/server/web"
 )
 
 // FlashData is a tools to maintain data when using across request.

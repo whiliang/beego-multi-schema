@@ -20,8 +20,8 @@
 //
 // Usage:
 // import(
-//   _ "github.com/beego/beego/v2/client/cache/memcache"
-//   "github.com/beego/beego/v2/client/cache"
+//   _ "github.com/whiliang/beego-multi-schema/client/cache/memcache"
+//   "github.com/whiliang/beego-multi-schema/client/cache"
 // )
 //
 //  bm, err := cache.NewCache("memcache", `{"conn":"127.0.0.1:11211"}`)
@@ -30,8 +30,8 @@
 package memcache
 
 import (
-	"github.com/beego/beego/v2/adapter/cache"
-	"github.com/beego/beego/v2/client/cache/memcache"
+	"github.com/whiliang/beego-multi-schema/adapter/cache"
+	"github.com/whiliang/beego-multi-schema/client/cache/memcache"
 )
 
 // NewMemCache create new memcache adapter.

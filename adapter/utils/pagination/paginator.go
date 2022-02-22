@@ -17,7 +17,7 @@ package pagination
 import (
 	"net/http"
 
-	"github.com/beego/beego/v2/core/utils/pagination"
+	"github.com/whiliang/beego-multi-schema/core/utils/pagination"
 )
 
 // Paginator within the state of a http request.

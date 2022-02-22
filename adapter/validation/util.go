@@ -17,7 +17,7 @@ package validation
 import (
 	"reflect"
 
-	"github.com/beego/beego/v2/core/validation"
+	"github.com/whiliang/beego-multi-schema/core/validation"
 )
 
 const (

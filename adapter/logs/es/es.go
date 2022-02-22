@@ -1,5 +1,5 @@
 package es
 
 import (
-	_ "github.com/beego/beego/v2/core/logs/es"
+	_ "github.com/whiliang/beego-multi-schema/core/logs/es"
 )

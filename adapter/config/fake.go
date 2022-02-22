@@ -15,7 +15,7 @@
 package config
 
 import (
-	"github.com/beego/beego/v2/core/config"
+	"github.com/whiliang/beego-multi-schema/core/config"
 )
 
 // NewFakeConfig return a fake Configer

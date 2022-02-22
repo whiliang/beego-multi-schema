@@ -38,8 +38,8 @@
 //
 // Usage:
 // import(
-//   _ "github.com/beego/beego/v2/server/web/session/postgresql"
-//   "github.com/beego/beego/v2/server/web/session"
+//   _ "github.com/whiliang/beego-multi-schema/server/web/session/postgresql"
+//   "github.com/whiliang/beego-multi-schema/server/web/session"
 // )
 //
 //	func init() {
@@ -60,7 +60,7 @@ import (
 	// import postgresql Driver
 	_ "github.com/lib/pq"
 
-	"github.com/beego/beego/v2/server/web/session"
+	"github.com/whiliang/beego-multi-schema/server/web/session"
 )
 
 var postgresqlpder = &Provider{}

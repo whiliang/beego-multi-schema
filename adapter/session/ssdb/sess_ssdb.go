@@ -4,8 +4,8 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/beego/beego/v2/adapter/session"
-	beeSsdb "github.com/beego/beego/v2/server/web/session/ssdb"
+	"github.com/whiliang/beego-multi-schema/adapter/session"
+	beeSsdb "github.com/whiliang/beego-multi-schema/server/web/session/ssdb"
 )
 
 // Provider holds ssdb client and configs

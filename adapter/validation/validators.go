@@ -17,7 +17,7 @@ package validation
 import (
 	"sync"
 
-	"github.com/beego/beego/v2/core/validation"
+	"github.com/whiliang/beego-multi-schema/core/validation"
 )
 
 // CanSkipFuncs will skip valid if RequiredFirst is true and the struct field's value is empty

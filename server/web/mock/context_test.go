@@ -23,7 +23,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/beego/beego/v2/server/web"
+	"github.com/whiliang/beego-multi-schema/server/web"
 )
 
 type TestController struct {

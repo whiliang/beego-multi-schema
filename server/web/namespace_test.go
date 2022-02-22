@@ -21,7 +21,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/beego/beego/v2/server/web/context"
+	"github.com/whiliang/beego-multi-schema/server/web/context"
 )
 
 const (

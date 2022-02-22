@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/beego/beego/v2/client/orm/hints"
+	"github.com/whiliang/beego-multi-schema/client/orm/hints"
 )
 
 // oracle operators.

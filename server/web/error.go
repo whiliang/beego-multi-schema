@@ -23,9 +23,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/beego/beego/v2"
-	"github.com/beego/beego/v2/core/utils"
-	"github.com/beego/beego/v2/server/web/context"
+	"github.com/whiliang/beego-multi-schema"
+	"github.com/whiliang/beego-multi-schema/core/utils"
+	"github.com/whiliang/beego-multi-schema/server/web/context"
 )
 
 const (

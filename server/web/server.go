@@ -31,10 +31,10 @@ import (
 
 	"golang.org/x/crypto/acme/autocert"
 
-	"github.com/beego/beego/v2/core/logs"
-	"github.com/beego/beego/v2/core/utils"
-	beecontext "github.com/beego/beego/v2/server/web/context"
-	"github.com/beego/beego/v2/server/web/grace"
+	"github.com/whiliang/beego-multi-schema/core/logs"
+	"github.com/whiliang/beego-multi-schema/core/utils"
+	beecontext "github.com/whiliang/beego-multi-schema/server/web/context"
+	"github.com/whiliang/beego-multi-schema/server/web/grace"
 )
 
 // BeeApp is an application instance

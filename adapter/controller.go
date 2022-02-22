@@ -18,9 +18,9 @@ import (
 	"mime/multipart"
 	"net/url"
 
-	"github.com/beego/beego/v2/adapter/session"
-	"github.com/beego/beego/v2/server/web"
-	webContext "github.com/beego/beego/v2/server/web/context"
+	"github.com/whiliang/beego-multi-schema/adapter/session"
+	"github.com/whiliang/beego-multi-schema/server/web"
+	webContext "github.com/whiliang/beego-multi-schema/server/web/context"
 )
 
 var (

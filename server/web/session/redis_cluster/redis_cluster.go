@@ -20,8 +20,8 @@
 //
 // Usage:
 // import(
-//   _ "github.com/beego/beego/v2/server/web/session/redis_cluster"
-//   "github.com/beego/beego/v2/server/web/session"
+//   _ "github.com/whiliang/beego-multi-schema/server/web/session/redis_cluster"
+//   "github.com/whiliang/beego-multi-schema/server/web/session"
 // )
 //
 //	func init() {
@@ -43,7 +43,7 @@ import (
 
 	rediss "github.com/go-redis/redis/v7"
 
-	"github.com/beego/beego/v2/server/web/session"
+	"github.com/whiliang/beego-multi-schema/server/web/session"
 )
 
 var redispder = &Provider{}

@@ -17,7 +17,7 @@ package logs
 import (
 	"time"
 
-	"github.com/beego/beego/v2/core/logs"
+	"github.com/whiliang/beego-multi-schema/core/logs"
 )
 
 type oldToNewAdapter struct {

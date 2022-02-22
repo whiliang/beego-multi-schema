@@ -28,7 +28,7 @@
 package migration
 
 import (
-	"github.com/beego/beego/v2/client/orm/migration"
+	"github.com/whiliang/beego-multi-schema/client/orm/migration"
 )
 
 // const the data format for the bee generate migration datatype

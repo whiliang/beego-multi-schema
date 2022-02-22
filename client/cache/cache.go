@@ -16,7 +16,7 @@
 // Usage:
 //
 // import(
-//   "github.com/beego/beego/v2/client/cache"
+//   "github.com/whiliang/beego-multi-schema/client/cache"
 // )
 //
 // bm, err := cache.NewCache("memory", `{"interval":60}`)
@@ -35,7 +35,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/beego/beego/v2/core/berror"
+	"github.com/whiliang/beego-multi-schema/core/berror"
 )
 
 // Cache interface contains all behaviors for cache adapter.

@@ -15,8 +15,8 @@
 // Package auth provides handlers to enable basic auth support.
 // Simple Usage:
 //	import(
-//		"github.com/beego/beego/v2"
-//		"github.com/beego/beego/v2/server/web/filter/auth"
+//		"github.com/whiliang/beego-multi-schema"
+//		"github.com/whiliang/beego-multi-schema/server/web/filter/auth"
 //	)
 //
 //	func main(){
@@ -38,10 +38,10 @@ package auth
 import (
 	"net/http"
 
-	beego "github.com/beego/beego/v2/adapter"
-	"github.com/beego/beego/v2/adapter/context"
-	beecontext "github.com/beego/beego/v2/server/web/context"
-	"github.com/beego/beego/v2/server/web/filter/auth"
+	beego "github.com/whiliang/beego-multi-schema/adapter"
+	"github.com/whiliang/beego-multi-schema/adapter/context"
+	beecontext "github.com/whiliang/beego-multi-schema/server/web/context"
+	"github.com/whiliang/beego-multi-schema/server/web/filter/auth"
 )
 
 // Basic is the http basic auth

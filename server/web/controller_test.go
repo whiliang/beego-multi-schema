@@ -27,7 +27,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/beego/beego/v2/server/web/context"
+	"github.com/whiliang/beego-multi-schema/server/web/context"
 )
 
 func TestGetInt(t *testing.T) {

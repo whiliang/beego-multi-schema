@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/beego/beego/v2/adapter/session"
+	"github.com/whiliang/beego-multi-schema/adapter/session"
 )
 
 func TestRedisSentinel(t *testing.T) {

@@ -19,7 +19,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/beego/beego/v2/client/orm"
+	"github.com/whiliang/beego-multi-schema/client/orm"
 )
 
 func TestDefaultValueFilterChainBuilderFilterChain(t *testing.T) {

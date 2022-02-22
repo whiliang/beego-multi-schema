@@ -17,7 +17,7 @@ package mock
 import (
 	"context"
 
-	"github.com/beego/beego/v2/client/orm"
+	"github.com/whiliang/beego-multi-schema/client/orm"
 )
 
 // DoNothingQueryM2Mer do nothing

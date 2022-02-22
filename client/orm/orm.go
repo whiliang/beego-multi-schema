@@ -21,7 +21,7 @@
 //
 //	import (
 //		"fmt"
-//		"github.com/beego/beego/v2/client/orm"
+//		"github.com/whiliang/beego-multi-schema/client/orm"
 //		_ "github.com/go-sql-driver/mysql" // import your used driver
 //	)
 //
@@ -62,10 +62,10 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/beego/beego/v2/client/orm/clauses/order_clause"
-	"github.com/beego/beego/v2/client/orm/hints"
-	"github.com/beego/beego/v2/core/logs"
-	"github.com/beego/beego/v2/core/utils"
+	"github.com/whiliang/beego-multi-schema/client/orm/clauses/order_clause"
+	"github.com/whiliang/beego-multi-schema/client/orm/hints"
+	"github.com/whiliang/beego-multi-schema/core/logs"
+	"github.com/whiliang/beego-multi-schema/core/utils"
 )
 
 // DebugQueries define the debug

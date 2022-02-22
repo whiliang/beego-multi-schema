@@ -15,7 +15,7 @@
 package utils
 
 import (
-	"github.com/beego/beego/v2/core/utils"
+	"github.com/whiliang/beego-multi-schema/core/utils"
 )
 
 // Display print the data in console

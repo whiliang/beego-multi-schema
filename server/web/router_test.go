@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/beego/beego/v2/core/logs"
-	"github.com/beego/beego/v2/server/web/context"
+	"github.com/whiliang/beego-multi-schema/core/logs"
+	"github.com/whiliang/beego-multi-schema/server/web/context"
 )
 
 type PrefixTestController struct {

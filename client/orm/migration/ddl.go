@@ -17,7 +17,7 @@ package migration
 import (
 	"fmt"
 
-	"github.com/beego/beego/v2/core/logs"
+	"github.com/whiliang/beego-multi-schema/core/logs"
 )
 
 // Index struct defines the structure of Index Columns

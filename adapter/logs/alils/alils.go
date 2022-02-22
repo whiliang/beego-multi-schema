@@ -1,5 +1,5 @@
 package alils
 
 import (
-	_ "github.com/beego/beego/v2/core/logs/alils"
+	_ "github.com/whiliang/beego-multi-schema/core/logs/alils"
 )

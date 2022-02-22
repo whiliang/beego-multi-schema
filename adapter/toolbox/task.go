@@ -19,7 +19,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/beego/beego/v2/task"
+	"github.com/whiliang/beego-multi-schema/task"
 )
 
 // The bounds for each field.

@@ -20,8 +20,8 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/beego/beego/v2/client/orm/clauses/order_clause"
-	"github.com/beego/beego/v2/core/utils"
+	"github.com/whiliang/beego-multi-schema/client/orm/clauses/order_clause"
+	"github.com/whiliang/beego-multi-schema/core/utils"
 )
 
 // TableNaming is usually used by model

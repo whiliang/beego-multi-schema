@@ -1,7 +1,7 @@
 package param
 
 import (
-	"github.com/beego/beego/v2/server/web/context/param"
+	"github.com/whiliang/beego-multi-schema/server/web/context/param"
 )
 
 // MethodParam keeps param information to be auto passed to controller methods

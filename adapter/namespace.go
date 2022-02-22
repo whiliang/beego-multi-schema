@@ -17,9 +17,9 @@ package adapter
 import (
 	"net/http"
 
-	adtContext "github.com/beego/beego/v2/adapter/context"
-	"github.com/beego/beego/v2/server/web"
-	"github.com/beego/beego/v2/server/web/context"
+	adtContext "github.com/whiliang/beego-multi-schema/adapter/context"
+	"github.com/whiliang/beego-multi-schema/server/web"
+	"github.com/whiliang/beego-multi-schema/server/web/context"
 )
 
 type namespaceCond func(*adtContext.Context) bool
@@ -92,28 +92,28 @@ func oldToNewFilter(filter []FilterFunc) []web.FilterFunc {
 }
 
 // Router same as beego.Rourer
-// refer: https://godoc.org/github.com/beego/beego/v2#Router
+// refer: https://godoc.org/github.com/whiliang/beego-multi-schema#Router
 func (n *Namespace) Router(rootpath string, c ControllerInterface, mappingMethods ...string) *Namespace {
 	(*web.Namespace)(n).Router(rootpath, c, mappingMethods...)
 	return n
 }
 
 // AutoRouter same as beego.AutoRouter
-// refer: https://godoc.org/github.com/beego/beego/v2#AutoRouter
+// refer: https://godoc.org/github.com/whiliang/beego-multi-schema#AutoRouter
 func (n *Namespace) AutoRouter(c ControllerInterface) *Namespace {
 	(*web.Namespace)(n).AutoRouter(c)
 	return n
 }
 
 // AutoPrefix same as beego.AutoPrefix
-// refer: https://godoc.org/github.com/beego/beego/v2#AutoPrefix
+// refer: https://godoc.org/github.com/whiliang/beego-multi-schema#AutoPrefix
 func (n *Namespace) AutoPrefix(prefix string, c ControllerInterface) *Namespace {
 	(*web.Namespace)(n).AutoPrefix(prefix, c)
 	return n
 }
 
 // Get same as beego.Get
-// refer: https://godoc.org/github.com/beego/beego/v2#Get
+// refer: https://godoc.org/github.com/whiliang/beego-multi-schema#Get
 func (n *Namespace) Get(rootpath string, f FilterFunc) *Namespace {
 	(*web.Namespace)(n).Get(rootpath, func(ctx *context.Context) {
 		f((*adtContext.Context)(ctx))
@@ -122,7 +122,7 @@ func (n *Namespace) Get(rootpath string, f FilterFunc) *Namespace {
 }
 
 // Post same as beego.Post
-// refer: https://godoc.org/github.com/beego/beego/v2#Post
+// refer: https://godoc.org/github.com/whiliang/beego-multi-schema#Post
 func (n *Namespace) Post(rootpath string, f FilterFunc) *Namespace {
 	(*web.Namespace)(n).Post(rootpath, func(ctx *context.Context) {
 		f((*adtContext.Context)(ctx))
@@ -131,7 +131,7 @@ func (n *Namespace) Post(rootpath string, f FilterFunc) *Namespace {
 }
 
 // Delete same as beego.Delete
-// refer: https://godoc.org/github.com/beego/beego/v2#Delete
+// refer: https://godoc.org/github.com/whiliang/beego-multi-schema#Delete
 func (n *Namespace) Delete(rootpath string, f FilterFunc) *Namespace {
 	(*web.Namespace)(n).Delete(rootpath, func(ctx *context.Context) {
 		f((*adtContext.Context)(ctx))
@@ -140,7 +140,7 @@ func (n *Namespace) Delete(rootpath string, f FilterFunc) *Namespace {
 }
 
 // Put same as beego.Put
-// refer: https://godoc.org/github.com/beego/beego/v2#Put
+// refer: https://godoc.org/github.com/whiliang/beego-multi-schema#Put
 func (n *Namespace) Put(rootpath string, f FilterFunc) *Namespace {
 	(*web.Namespace)(n).Put(rootpath, func(ctx *context.Context) {
 		f((*adtContext.Context)(ctx))
@@ -149,7 +149,7 @@ func (n *Namespace) Put(rootpath string, f FilterFunc) *Namespace {
 }
 
 // Head same as beego.Head
-// refer: https://godoc.org/github.com/beego/beego/v2#Head
+// refer: https://godoc.org/github.com/whiliang/beego-multi-schema#Head
 func (n *Namespace) Head(rootpath string, f FilterFunc) *Namespace {
 	(*web.Namespace)(n).Head(rootpath, func(ctx *context.Context) {
 		f((*adtContext.Context)(ctx))
@@ -158,7 +158,7 @@ func (n *Namespace) Head(rootpath string, f FilterFunc) *Namespace {
 }
 
 // Options same as beego.Options
-// refer: https://godoc.org/github.com/beego/beego/v2#Options
+// refer: https://godoc.org/github.com/whiliang/beego-multi-schema#Options
 func (n *Namespace) Options(rootpath string, f FilterFunc) *Namespace {
 	(*web.Namespace)(n).Options(rootpath, func(ctx *context.Context) {
 		f((*adtContext.Context)(ctx))
@@ -167,7 +167,7 @@ func (n *Namespace) Options(rootpath string, f FilterFunc) *Namespace {
 }
 
 // Patch same as beego.Patch
-// refer: https://godoc.org/github.com/beego/beego/v2#Patch
+// refer: https://godoc.org/github.com/whiliang/beego-multi-schema#Patch
 func (n *Namespace) Patch(rootpath string, f FilterFunc) *Namespace {
 	(*web.Namespace)(n).Patch(rootpath, func(ctx *context.Context) {
 		f((*adtContext.Context)(ctx))
@@ -176,7 +176,7 @@ func (n *Namespace) Patch(rootpath string, f FilterFunc) *Namespace {
 }
 
 // Any same as beego.Any
-// refer: https://godoc.org/github.com/beego/beego/v2#Any
+// refer: https://godoc.org/github.com/whiliang/beego-multi-schema#Any
 func (n *Namespace) Any(rootpath string, f FilterFunc) *Namespace {
 	(*web.Namespace)(n).Any(rootpath, func(ctx *context.Context) {
 		f((*adtContext.Context)(ctx))
@@ -185,14 +185,14 @@ func (n *Namespace) Any(rootpath string, f FilterFunc) *Namespace {
 }
 
 // Handler same as beego.Handler
-// refer: https://godoc.org/github.com/beego/beego/v2#Handler
+// refer: https://godoc.org/github.com/whiliang/beego-multi-schema#Handler
 func (n *Namespace) Handler(rootpath string, h http.Handler) *Namespace {
 	(*web.Namespace)(n).Handler(rootpath, h)
 	return n
 }
 
 // Include add include class
-// refer: https://godoc.org/github.com/beego/beego/v2#Include
+// refer: https://godoc.org/github.com/whiliang/beego-multi-schema#Include
 func (n *Namespace) Include(cList ...ControllerInterface) *Namespace {
 	nL := oldToNewCtrlIntfs(cList)
 	(*web.Namespace)(n).Include(nL...)

@@ -15,8 +15,8 @@
 package adapter
 
 import (
-	"github.com/beego/beego/v2"
-	"github.com/beego/beego/v2/server/web"
+	"github.com/whiliang/beego-multi-schema"
+	"github.com/whiliang/beego-multi-schema/server/web"
 )
 
 const (

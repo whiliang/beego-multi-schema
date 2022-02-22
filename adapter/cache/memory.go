@@ -15,7 +15,7 @@
 package cache
 
 import (
-	"github.com/beego/beego/v2/client/cache"
+	"github.com/whiliang/beego-multi-schema/client/cache"
 )
 
 // NewMemoryCache returns a new MemoryCache.

@@ -15,9 +15,9 @@
 package adapter
 
 import (
-	"github.com/beego/beego/v2/adapter/session"
-	newCfg "github.com/beego/beego/v2/core/config"
-	"github.com/beego/beego/v2/server/web"
+	"github.com/whiliang/beego-multi-schema/adapter/session"
+	newCfg "github.com/whiliang/beego-multi-schema/core/config"
+	"github.com/whiliang/beego-multi-schema/server/web"
 )
 
 // Config is the main struct for BConfig

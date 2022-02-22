@@ -15,7 +15,7 @@
 package context
 
 import (
-	"github.com/beego/beego/v2/server/web/context"
+	"github.com/whiliang/beego-multi-schema/server/web/context"
 )
 
 // BeegoInput operates the http request header, data, cookie and body.
