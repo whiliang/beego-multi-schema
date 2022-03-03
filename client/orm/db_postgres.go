@@ -162,9 +162,12 @@ func (d *dbBasePostgres) setval(ctx context.Context, db dbQuerier, mi *modelInfo
 // show table sql for postgresql.
 func (d *dbBasePostgres) ShowTablesQuery(ctx context.Context) string {
 	query := "SELECT table_name FROM information_schema.tables WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')"
-	schema := ctx.Value(ContextKeySchema).(string)
-	if len(schema) > 0 {
-		query = fmt.Sprintf("%s AND table_schema='%s'", query, schema)
+	_schema := ctx.Value(ContextKeySchema)
+	if nil != _schema {
+		schema := _schema.(string)
+		if len(schema) > 0 {
+			query = fmt.Sprintf("%s AND table_schema='%s'", query, schema)
+		}
 	}
 	return query
 }
@@ -172,9 +175,12 @@ func (d *dbBasePostgres) ShowTablesQuery(ctx context.Context) string {
 // show table columns sql for postgresql.
 func (d *dbBasePostgres) ShowColumnsQuery(ctx context.Context, table string) string {
 	query := fmt.Sprintf("SELECT column_name, data_type, is_nullable FROM information_schema.columns where table_schema NOT IN ('pg_catalog', 'information_schema') and table_name = '%s'", table)
-	schema := ctx.Value(ContextKeySchema).(string)
-	if len(schema) > 0 {
-		query = fmt.Sprintf("%s AND table_schema='%s'", query, schema)
+	_schema := ctx.Value(ContextKeySchema)
+	if nil != _schema {
+		schema := ctx.Value(ContextKeySchema).(string)
+		if len(schema) > 0 {
+			query = fmt.Sprintf("%s AND table_schema='%s'", query, schema)
+		}
 	}
 	return query
 }
@@ -186,10 +192,15 @@ func (d *dbBasePostgres) DbTypes() map[string]string {
 
 // check index exist in postgresql.
 func (d *dbBasePostgres) IndexExists(ctx context.Context, db dbQuerier, table string, name string) bool {
-	schema := ctx.Value(ContextKeySchema).(string)
-	if schema == "" {
-		schema = "public"
+	var schema string
+	_schema := ctx.Value(ContextKeySchema)
+	if nil != _schema {
+		schema = ctx.Value(ContextKeySchema).(string)
+		if schema == "" {
+			schema = "public"
+		}
 	}
+
 	query := fmt.Sprintf("SELECT COUNT(*) FROM pg_indexes WHERE tablename = '%s' AND indexname = '%s' AND schemaname = '%s'", table, name, schema)
 	row := db.QueryRowContext(ctx, query)
 	var cnt int
