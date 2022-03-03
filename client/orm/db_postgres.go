@@ -195,10 +195,12 @@ func (d *dbBasePostgres) IndexExists(ctx context.Context, db dbQuerier, table st
 	var schema string
 	_schema := ctx.Value(ContextKeySchema)
 	if nil != _schema {
-		schema = ctx.Value(ContextKeySchema).(string)
+		schema = _schema.(string)
 		if schema == "" {
 			schema = "public"
 		}
+	} else {
+		schema = "public"
 	}
 
 	query := fmt.Sprintf("SELECT COUNT(*) FROM pg_indexes WHERE tablename = '%s' AND indexname = '%s' AND schemaname = '%s'", table, name, schema)
